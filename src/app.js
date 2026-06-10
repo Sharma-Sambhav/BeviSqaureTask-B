@@ -8,7 +8,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: process.env.NODE_ENV === "production" ? "https://bevisquare.sambhav.click" : "http://localhost:3000",
+    origin: process.env.NODE_ENV === "production" ? "https://bevisqaure.sambhav.click" : "http://localhost:3000",
     credentials: true,
   })
 );
